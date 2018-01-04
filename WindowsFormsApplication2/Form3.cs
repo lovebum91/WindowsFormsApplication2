@@ -31,6 +31,7 @@ namespace WindowsFormsApplication2
         private void bunBtnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
